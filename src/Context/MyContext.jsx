@@ -6,7 +6,7 @@ export const MyContext = createContext(null)
 const MyContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "https://github.com/atulmishra1997/Brandy-s_Fast_Food_Frontend.git"
+    const url = "https://brandy-s-fast-food-backend-3.onrender.com"
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
 
